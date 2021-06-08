@@ -1,0 +1,344 @@
+body{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+*{
+    padding: 0;margin: 0;
+}
+
+
+
+.info{
+    background-color: rgb(237, 243, 243);display: inline-block;text-align: center;align-items: center;
+    font-size: 1rem;
+}
+.numbera,.numberb,.welcome{
+    font-size: .8rem;display: inline-block;align-self: center;
+}
+
+#envelope{
+    color: black;text-decoration: none;  font-size: 1rem;
+}
+.mail{
+color: black;text-decoration: none;  font-size: 1rem;
+}
+
+@media (max-width:1200px){
+
+    .numbera,.numberb,.welcome{
+        display: none;
+    }
+    
+}
+
+
+
+
+.navbar{
+    height: 7rem;
+}
+.navbar-nav{
+   padding: 0 0 0 13vw;
+}
+.nav-item{
+    color: black;font-weight: bold;
+}
+.nav-link{
+    margin: 1rem;font-size: .8rem;color: black;
+}
+.navbar-brand{
+color: black;
+}
+
+.nav-link:hover{
+    color: green;
+}
+
+
+
+.btn{
+    background-color: green;
+    color: white;text-align: center;
+    position: relative;top: 1rem;
+
+}
+
+
+
+
+
+
+.pic{
+  
+text-align: center;
+}
+.chips{
+    padding:3rem 1rem 2rem;height: auto;max-width: 100%;
+}
+
+
+.icon{
+    color:rgb(90, 236, 61);font-size: 3rem;display: inline-block;text-align:center;position: relative;padding:1rem 1rem 3rem;
+ 
+}
+h5{
+    color: black;font-size: 1.2rem;top: 1.5rem;position: relative;
+}
+
+
+
+.ula,.ulb{
+    display: inline-block;
+}
+.itk{
+    padding: 4rem 0 0 0;font-size: 1.2rem;font-family: 'Montserrat', sans-serif; list-style:none;display: block;
+}
+@media (max-width:1000px){
+    .ula,.ulb{
+        display: block;
+    }
+    .wordings{
+        margin: 5rem 0 0 0;
+    }
+}
+.what{
+    top: 1rem;position: relative;font-size: .8rem;
+}
+.our-produce{
+color: green;
+}
+.listings{
+    padding: 0;margin: 0;
+}
+.wordings{
+    padding: 0 2rem;background-color: rgb(231, 235, 240);
+}
+
+
+.about-us{
+    top: 1rem;position: relative;font-size: 1rem;
+}
+.let{
+    font-size:1.8rem;  font-family: 'Montserrat', sans-serif;
+}
+.color-let{
+    color:rgb(32, 170, 32);
+}
+.leaf{
+color: rgb(182, 41, 41);font-size: 1.5rem;
+}
+
+.readmore{
+    text-decoration: none;color: white;
+    background-color:rgb(32, 170, 32);
+    padding: .7vw 1vw;position: relative;
+    top: 2rem;
+
+}
+.readmore:hover{
+color: white;
+}
+
+.hay-pic{
+    border-radius: 50%;width: 320px;height: 300px;
+    position: relative;float: right;
+  
+}
+
+.circle{
+    padding: 5rem 2rem;
+}
+
+.second-pic{
+    width:500px;
+   height:500px;z-index: -1;  position: relative;
+}
+.picb{
+    position: fixed;z-index: -1;
+}
+
+
+
+
+
+@media (max-width:1800px){
+   
+    .second-pic{
+        width: 100%;
+    }
+    .picb{
+        width: 100%;
+    }
+   
+    h4{
+        display: none;
+    }
+    
+}
+
+}
+.quality{
+    text-align: center;padding: 4rem 1rem 2rem;font-family: 'Montserrat', sans-serif;
+}
+.quality-color{
+    color: green;
+}
+.are{
+    font-size: 1.7rem;text-align: center;
+}
+.feature{
+    font-size: 1rem;text-align: center;padding: 7rem 0 0;
+}
+
+#catalog{
+    width: 200px;height: 180px;padding: 0 1rem 1rem;
+}
+.displaya,.displayc,..displayc,..displayd,..displaye,..displayf{
+    padding: 1rem 1rem;text-align: center;
+}
+
+.contact-us{
+    text-decoration: none;color: white;background-color: rgb(61, 189, 61);padding: .5rem 1rem;text-align: center;
+}.contact{
+    text-align: center;padding: 6rem 0 8rem;
+}
+
+
+
+
+@media (max-width:1200px){
+    #catalog{
+        width: 100%; text-align:center;height:auto;max-width: 100%;
+    }
+}
+
+
+.getintouch{
+ font-family: 'Montserrat', sans-serif;  font-size: 1.7rem;
+}
+.getintouch-color{
+    color: green;
+}
+.getintouch-word{
+    top: 1rem;position: relative;font-size: .8rem;
+}
+.leafb{
+    color: rgb(182, 41, 41);font-size: 1.5rem;
+    }
+.get{
+    padding: 0 0 0 2rem ;
+}    
+
+
+.messa,.messb{
+    display: inline-block;
+}
+
+li{
+   list-style: none;
+}
+#messageb,#messagea,#messagec,#messaged{
+    padding: .5rem 1rem .5rem;margin: 2rem 0;}
+#messageb{
+  width: 400px;
+}
+
+
+
+@media (max-width:1200px){
+    .plantationimage{
+     width: 100%; text-align:center;height:auto;max-width: 100%;
+    } 
+    input,textarea,#mesageb{
+     width: 100%;height:auto;max-width: 100%;
+    }
+ }
+ 
+
+
+.plantationimage{
+    height: 400px;width: 500px;position: relative;top: 100px;
+}
+.images{
+    padding: 0 0 0 4rem;text-align: center;
+}
+
+
+.message-us{
+    text-decoration: none;color: white;background-color: rgb(61, 189, 61);padding: .5rem 1rem;text-align: center;
+}.messageus{
+   padding: 2rem  1.5rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rowling{
+    padding: 3rem 5rem;color: white;
+}
+.address{
+    line-height: 2.0;color: white;
+}
+.ic{
+    padding: 0 .5rem 0 0;color: white;
+}
+.tag,.quick{
+    padding: 4rem 0 4rem 2rem;color: white;
+}
+
+.stay{
+    padding: 4rem 0 1rem 2rem;color:white;
+}
+.shit{
+    padding: 15rem 0 0 0;
+}
+.aaa{
+    display: block;line-height: 1.5;text-decoration: none;color: rgb(226, 229, 231);font-size: 1.3rem;
+}
+.aaa:hover{
+    color: white;
+}
+
+.aaaa{
+    display: block;line-height: 1.5;text-decoration: none;color: rgb(226, 229, 231);font-size: 1.3rem;
+}
+.aaaa:hover{
+    color: white;
+}
+.faqs,.guide{
+    display: inline-block;right: 2rem;position: relative;line-height: 2;
+}
+.address,.addressa,.addressb,.addressc,.des,.tag{
+    font-size: 1.3rem;
+}
+
+
+
+
+
+
+
+.rowling{
+    min-height: 100%;
+    background-image: url(forest2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ footer{
+     padding: .5rem 7rem 0;align-items: center;
+ }

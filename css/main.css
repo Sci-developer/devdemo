@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    color: black;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    padding: 4rem;
+}
+
+.typing{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.typing::after{
+    content: "";
+    border-right: 3px rgb(20, 5, 156) solid;
+    animation-delay: 0s;
+    animation: blink .5s infinite ease;
+}
+
+
+
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

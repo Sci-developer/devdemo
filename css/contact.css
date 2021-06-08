@@ -1,0 +1,100 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav{
+  display: flex;
+  flex-direction: column;
+  height: 10vh;
+  background-color: firebrick;
+}
+
+.li{
+  list-style: none;
+  margin: 0 2rem;
+}
+
+.a{
+  text-decoration: none;
+  color: black;
+}
+
+.line{
+  width: 25px;
+  height: 3px;
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+  background: black;
+  cursor: pointer;
+}
+
+.toggle-button{
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+}
+
+.div{
+  margin: auto;
+  display: flex;
+}
+
+ul{
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  left: -100%;
+}
+
+ul.slide{
+  position: absolute;
+  top: 10vh;
+  width: 100%;
+  left: 0;
+  transition: all .5s ease;
+}
+
+.div.slide{
+  margin: auto;
+  display: flex;
+}
+
+#hamburger.check .line:nth-child(2){
+  opacity: 0;
+}
+
+
+
+.cover{
+  position: relative;
+}
+
+.one{
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  z-index: -1;
+  position: relative;
+}
+
+.two{
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  position: absolute;
+  left: 0; top: -5rem;
+  z-index: 1;
+}
